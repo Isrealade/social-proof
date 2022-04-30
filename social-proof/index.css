@@ -1,0 +1,277 @@
+body{
+    background-image: url(images/bg-pattern-top-desktop.svg),url(images/bg-pattern-bottom-desktop.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+
+main{
+    padding: 40px 120px 40px 120px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.introduction{
+    display: flex;
+    column-gap: 150px;
+    width: 100%;
+}
+
+.introduction .text-container{
+    width: 43%;
+    text-align: left;
+}
+.introduction .text-container h1{
+    color: hsl(300, 43%, 22%);
+    font-weight: 900;
+    font-weight: bolder;
+    word-spacing: 6px;
+}
+.introduction .text-container p{
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+
+
+.introduction .review-container{
+    width: 40%;
+}
+
+.introduction .review-container .first-review{
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    line-height: 0;
+    margin-top: 45px;
+    margin-bottom: 0;
+    padding: 10px 15px 10px 15px;
+    border-radius: 8px;
+    width: 390px;
+}
+.introduction .review-container .first-review p{
+    font-weight: 700;
+    margin: 9px 0 0 20px;
+}
+
+.introduction .review-container .second-review{
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    line-height: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 30px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 8px;
+    width: 390px;
+}
+.introduction .review-container .second-review p{
+    font-weight: 700;
+    margin: 9px 0 0 20px;
+}
+
+.introduction .review-container .third-review{
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    line-height: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 60px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 8px;
+    width: 390px;
+}
+.introduction .review-container .third-review p{
+    font-weight: 700;
+    margin: 9px 0 0 20px;
+}
+
+/* testimoials sections */
+
+.testimonials{
+    display: flex;
+    column-gap: 3%;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.testimonials .im_text-container{
+    display: flex;
+}
+.testimonials .im_text-container img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+.testimonials .im_text-container .texts{
+    line-height: 0;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+
+.testimonials .im_text-container .texts p:last-child{
+    margin-top: 13px;
+}
+
+
+.testimonials .testimony1{
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px 15px 20px 15px;
+    text-align: left;
+    border-radius: 6px;
+    height: 175px;
+}
+
+.testimonials .testimony1 .im_text-container p:first-child{
+    color: hsl(0, 0%, 100%);
+}
+.testimonials .testimony1 .im_text-container p:nth-child(2){
+    color: hsl(303, 10%, 53%);
+}
+.testimonials .testimony1 p span{
+    color: hsl(0, 0%, 100%);
+    line-height: 5px;
+}
+
+
+.testimonials .testimony2{
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px 15px 20px 15px;
+    text-align: left;
+    border-radius: 6px;
+    margin-top: 20px;
+    height: 175px;
+}
+
+.testimonials .testimony2 .im_text-container p:first-child{
+    color: hsl(0, 0%, 100%);
+}
+.testimonials .testimony2 .im_text-container p:nth-child(2){
+    color: hsl(303, 10%, 53%);
+}
+.testimonials .testimony2 p span{
+    line-height: 5px;
+    color: hsl(0, 0%, 100%);
+}
+
+.testimonials .testimony3{
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px 15px 20px 15px;
+    text-align: left;
+    border-radius: 6px;
+    margin-top: 40px;
+    height: 175px;
+}
+
+.testimonials .testimony3 .im_text-container p:first-child{
+    color: hsl(0, 0%, 100%);
+}
+.testimonials .testimony3 .im_text-container p:nth-child(2){
+    color: hsl(303, 10%, 53%);
+}
+.testimonials .testimony3 p span{
+    line-height: 5px;
+    color: hsl(0, 0%, 100%);
+}
+
+/* @media screen and (min-width: 480px) and (max-width: 600px){
+    body{
+        background-image: url(images/bg-pattern-top-mobile.svg),url(images/bg-pattern-bottom-mobile.svg);
+        background-position: left top, right bottom;
+        background-repeat: no-repeat, no-repeat;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: auto;
+        margin-bottom: auto;
+        height: auto;
+        box-sizing: border-box;
+    }
+    .introduction{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .introduction .text-container{
+        text-align: center;
+    }
+    .review-container{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .review-container .first-review{
+        display: flex;
+        flex-direction: column;
+        column-gap: 10px;
+        width: 100%;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 0;
+    }
+    .review-container .first-review p{
+        margin-top: 20px;
+    }
+    .review-container .second-review{
+        display: flex;
+        flex-direction: column;
+        column-gap: 10px;
+        width: 100%;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 0;
+    }
+    .review-container .third-review{
+        display: flex;
+        flex-direction: column;
+        column-gap: 10px;
+        width: 100%;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 0;
+    }
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        width: 100%;
+        border-top: 10px;
+    }
+    .testimonials .testimony1{
+        width: 100%;
+        border-radius: 6px;
+        padding: 20px 15px 20px 15px;
+        height: 150px;
+    }
+    .testimonials .testimony2{
+        width: 100%;
+        border-radius: 6px;
+        padding: 20px 15px 20px 15px;
+        height: 150px;
+    }
+    .testimonials .testimony3{
+        width: 100%;
+        border-radius: 6px;
+        padding: 20px 15px 20px 15px;
+        height: 150px;
+    }
+}  */
+
+
+
+
+    
+
+
